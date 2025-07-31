@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")();
 
-let numero1 = prompt("Digite o valor do primeiro número: ");
-let numero2 = prompt("Digite o valor do segundo número: ");
+let n1 = prompt("Informe o valor do primeiro número: ");
+let n2 = prompt("Informe o valor do segundo número: ");
 
-console.log(`O valor da soma do número1 (${numero1}) e do número2 (${numero2}) é igual a ${Number(numero1)+Number(numero2)}`);
+console.log(`O valor da soma do número1 (${n1}) e do número2 (${n2}) é igual a ${Number(n1)+Number(n2)}`);
