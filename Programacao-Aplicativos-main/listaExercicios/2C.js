@@ -1,16 +1,16 @@
 const prompt = require("prompt-sync")();
 
-let idade = Number(prompt("Digite a idade da pessoa: "));
+let n = Number(prompt("Informe a idade da pessoa: "));
 
-if(idade <= 12){
+if(n <= 12){
     console.log(`É uma criança (ou um bebê)`);
 }
-else if(idade <= 17){
+else if(n <= 17){
     console.log(`É um adolescente`);
 }
-else if(idade <= 64){
+else if(n <= 64){
     console.log(`É um adulto`);
 }
-else if(idade > 64){
+else if(n > 64){
     console.log(`É um idoso`);
 }
