@@ -1,10 +1,10 @@
 const prompt = require("prompt-sync")();
 
-let nota1 = Number(prompt("Digite a nota1 do aluno: "));
-let nota2 = Number(prompt("Digite a nota2 do aluno: "));
-let nota3 = Number(prompt("Digite a nota3 do aluno: "));
+let n1 = Number(prompt("Informe a primeira nota do aluno: "));
+let n2 = Number(prompt("Informe a segunda nota do aluno: "));
+let n3 = Number(prompt("Informe a terceiran nota do aluno: "));
 
-let mediaAluno = (nota1 + nota2 + nota3) / 3;
+let mediaAluno = (n1 + n2 + n3) / 3;
 let mediaEscola = 7;
 
 if(mediaAluno >= mediaEscola){
