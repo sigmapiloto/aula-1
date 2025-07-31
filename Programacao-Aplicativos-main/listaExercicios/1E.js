@@ -1,11 +1,11 @@
 const prompt = require("prompt-sync")();
 
-let distanciaViagem = Number(prompt("Digite a distância da viagem: "));
-let consumoMedioKmL = Number(prompt("Digite o consumo médio do carro (em km/l): "));
-let precoGasolina = Number(prompt("Digite o preço da gasolina: "));
+let distancia = Number(prompt("Informe a distância da viagem: "));
+let consumoMedio = Number(prompt("Informe o consumo médio do carro (em km/l): "));
+let Gasolina = Number(prompt("Informe o preço da gasolina: "));
 
-let litrosNecessarios = distanciaViagem / consumoMedioKmL;
-let custoViagem = litrosNecessarios * precoGasolina;
+let litros = distancia / consumoMedio;
+let custo = litros * Gasolina;
 
-console.log(`A quantidade de litros necessários para completar a viagem de ${distanciaViagem}km é de: ${litrosNecessarios.toFixed(2)}`);
-console.log(`A viagem vai custar: ${custoViagem.toFixed(2)}`);
+console.log(`A quantidade de litros necessários para completar a viagem de ${distancia}km é de: ${litros.toFixed(2)}`);
+console.log(`A viagem vai custar: ${custo.toFixed(2)}`);
