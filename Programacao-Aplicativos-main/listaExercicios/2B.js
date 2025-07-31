@@ -1,9 +1,9 @@
 const prompt = require("prompt-sync")();
 
-let numero = Number(prompt("Digite um número: "));
+let n = Number(prompt("Digite um número aleatorio: "));
 
-if(numero % 2 == 0){
-    console.log(`O número ${numero} é par!`)
+if(n % 2 == 0){
+    console.log(`O número ${n} é par!`)
 }else{
-    console.log(`O número ${numero} é ímpar!)`)
+    console.log(`O número ${n} é ímpar!)`)
 }
